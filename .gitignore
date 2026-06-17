@@ -1,0 +1,35 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/key.properties
+**/android/**/google-services.json
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+**/ios/**/GoogleService-Info.plist
+
+# Firebase (auto-generated; regenerate via flutterfire configure)
+lib/firebase_options.dart
+
+# macOS
+.DS_Store
